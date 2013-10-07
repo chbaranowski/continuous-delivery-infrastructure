@@ -27,20 +27,20 @@ class { 'jenkins':
   lts => 0
 }
 
-#jenkins::plugin {
-#  "credentials" : 
-#    version => "1.8.2";
-#  "ssh-slaves" : 
-#    version => "1.2";
-#  "ssh-credentials" : 
-#    version => "1.4";
-#  "ssh-agent" : 
-#    version => "1.3";
-#  "git-client" : 
-#    version => "1.3.0";
-#  "git" : 
-#    version => "1.5.0";
-#}
+jenkins::plugin {
+  "credentials" : 
+    version => "1.8.2";
+  "ssh-slaves" : 
+    version => "1.2";
+  "ssh-credentials" : 
+    version => "1.4";
+  "ssh-agent" : 
+    version => "1.3";
+  "git-client" : 
+    version => "1.3.0";
+  "git" : 
+    version => "1.5.0";
+}
 
 user { 'gitblit_user':
   ensure     => present,

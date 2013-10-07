@@ -10,21 +10,21 @@
 [submodule "master/modules/editfile"]
 	path = master/modules/editfile
 	url = https://github.com/mstrauss/puppet-editfile.git
-[submodule "acceptance-test-stage/modules/mysql"]	
-	path = acceptance-test-stage/modules/mysql
-	git://github.com/puppetlabs/puppetlabs-mysql.git
 [submodule "acceptance-test-stage/modules/puppetlabs-stdlib"]
-    path = acceptance-test-stage/modules/puppetlabs-stdlib
-    url = git://github.com/puppetlabs/puppetlabs-stdlib.git
+	path = acceptance-test-stage/modules/puppetlabs-stdlib
+	url = git://github.com/puppetlabs/puppetlabs-stdlib.git
 [submodule "acceptance-test-stage/modules/editfile"]
-    path = acceptance-test-stage/modules/editfile
-    url = https://github.com/mstrauss/puppet-editfile.git
-[submodule "manual-test-stage/modules/mysql"]   
-    path = manual-test-stage/modules/mysql
-    git://github.com/puppetlabs/puppetlabs-mysql.git
+	path = acceptance-test-stage/modules/editfile
+	url = https://github.com/mstrauss/puppet-editfile.git
+[submodule "acceptance-test-stage/modules/mysql"]
+	path = acceptance-test-stage/modules/mysql
+	url = git://github.com/puppetlabs/puppetlabs-mysql.git
+[submodule "manual-test-stage/modules/mysql"]
+	path = manual-test-stage/modules/mysql
+	url = git://github.com/puppetlabs/puppetlabs-mysql.git
 [submodule "manual-test-stage/modules/puppetlabs-stdlib"]
-    path = manual-test-stage/modules/puppetlabs-stdlib
-    url = git://github.com/puppetlabs/puppetlabs-stdlib.git
+	path = manual-test-stage/modules/puppetlabs-stdlib
+	url = git://github.com/puppetlabs/puppetlabs-stdlib.git
 [submodule "manual-test-stage/modules/editfile"]
-    path = manual-test-stage/modules/editfile
-    url = https://github.com/mstrauss/puppet-editfile.git
+	path = manual-test-stage/modules/editfile
+	url = https://github.com/mstrauss/puppet-editfile.git

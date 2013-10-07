@@ -24,7 +24,6 @@ Vagrant.configure("2") do |config|
   
   #
   # SSH Settings for the Box
-  config.ssh.private_key_path = "~/.ssh/id_rsa"
   config.ssh.forward_agent = true
    
   # Create a forwarded port mapping which allows access to a specific port

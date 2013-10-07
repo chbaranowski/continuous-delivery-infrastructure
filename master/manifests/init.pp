@@ -24,7 +24,7 @@ file { '/home/vagrant/.gitconfig':
 }
 
 class { 'jenkins': 
-  lts => 0
+  lts => 1
 }
 
 jenkins::plugin {
